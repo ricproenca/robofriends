@@ -1,6 +1,6 @@
 {
-  "name": "RoboFriends",
-  "short_name": "RoboFriends App",
+  "name": "robofriends",
+  "short_name": "robofriends",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

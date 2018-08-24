@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "description": "PWA + React + Redux Exercise",
   "keywords": [
-    "PWA",
-    "React",
-    "Redux"
+    "pwa-example",
+    "reactjs",
+    "redux",
+    "redux-thunk",
+    "react-logger",
+    "gh-pages",
+    "tachyons",
+    "why-did-you-update"
   ],
   "private": true,
   "author": {

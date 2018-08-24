@@ -1,8 +1,38 @@
 {
   "name": "robofriends",
   "version": "0.1.0",
+  "description": "PWA + React + Redux Exercise",
+  "keywords": [
+    "PWA",
+    "React",
+    "Redux"
+  ],
   "private": true,
-  "homepage": "https:ricproenca.github.io/robofriends",
+  "author": {
+    "name": "Ricardo Proença",
+    "url": "https://www.linkedin.com/in/ricproenca/"
+  },
+  "license": "MIT",
+  "homepage": "https://ricproenca.github.io/robofriends",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ricproenca/robofriends.git"
+  },
+  "bugs": {
+    "url": "https://github.com//ricproenca/robofriend/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "node_modules/.bin/gh-pages -d build"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
@@ -14,13 +44,5 @@
     "redux-thunk": "^2.3.0",
     "tachyons": "^4.9.0",
     "why-did-you-update": "^0.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "node_modules/.bin/gh-pages -d build"
   }
 }
